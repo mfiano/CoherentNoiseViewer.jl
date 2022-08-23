@@ -3,5 +3,8 @@ uuid = "839173cb-aead-4daa-b806-4df9806a5dfe"
 authors = ["Michael Fiano <mail@mfiano.net> and contributors"]
 version = "0.1.0"
 
+[deps]
+CoherentNoise = "3547b4d8-3bdb-4c10-a099-d01a31e852e0"
+
 [compat]
-julia = "1.8"
+julia = "1.6"
