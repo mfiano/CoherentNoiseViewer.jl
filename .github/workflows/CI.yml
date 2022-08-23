@@ -51,6 +51,6 @@ jobs:
       - run: |
           julia --project=docs -e '
             using Documenter: DocMeta, doctest
-            using CoherentNoisePlotting
-            DocMeta.setdocmeta!(CoherentNoisePlotting, :DocTestSetup, :(using CoherentNoisePlotting); recursive=true)
-            doctest(CoherentNoisePlotting)'
+            using CoherentNoiseViewer
+            DocMeta.setdocmeta!(CoherentNoiseViewer, :DocTestSetup, :(using CoherentNoiseViewer); recursive=true)
+            doctest(CoherentNoiseViewer)'
