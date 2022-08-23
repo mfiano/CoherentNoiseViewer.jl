@@ -1,6 +1,6 @@
-using CoherentNoisePlotting
+using CoherentNoiseViewer
 using Test
 
-@testset "CoherentNoisePlotting.jl" begin
+@testset "CoherentNoiseViewer.jl" begin
     # Write your tests here.
 end

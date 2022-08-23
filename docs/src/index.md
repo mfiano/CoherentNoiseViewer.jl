@@ -1,14 +1,14 @@
 ```@meta
-CurrentModule = CoherentNoisePlotting
+CurrentModule = CoherentNoiseViewer
 ```
 
-# CoherentNoisePlotting
+# CoherentNoiseViewer
 
-Documentation for [CoherentNoisePlotting](https://github.com/mfiano/CoherentNoisePlotting.jl).
+Documentation for [CoherentNoiseViewer](https://github.com/mfiano/CoherentNoiseViewer.jl).
 
 ```@index
 ```
 
 ```@autodocs
-Modules = [CoherentNoisePlotting]
+Modules = [CoherentNoiseViewer]
 ```

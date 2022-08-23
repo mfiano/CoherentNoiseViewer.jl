@@ -1,4 +1,4 @@
-name = "CoherentNoisePlotting"
+name = "CoherentNoiseViewer"
 uuid = "839173cb-aead-4daa-b806-4df9806a5dfe"
 authors = ["Michael Fiano <mail@mfiano.net> and contributors"]
 version = "0.1.0"

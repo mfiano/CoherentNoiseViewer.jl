@@ -1,16 +1,16 @@
-using CoherentNoisePlotting
+using CoherentNoiseViewer
 using Documenter
 
-DocMeta.setdocmeta!(CoherentNoisePlotting, :DocTestSetup, :(using CoherentNoisePlotting); recursive=true)
+DocMeta.setdocmeta!(CoherentNoiseViewer, :DocTestSetup, :(using CoherentNoiseViewer); recursive=true)
 
 makedocs(;
-    modules=[CoherentNoisePlotting],
+    modules=[CoherentNoiseViewer],
     authors="Michael Fiano <mail@mfiano.net> and contributors",
-    repo="https://github.com/mfiano/CoherentNoisePlotting.jl/blob/{commit}{path}#{line}",
-    sitename="CoherentNoisePlotting.jl",
+    repo="https://github.com/mfiano/CoherentNoiseViewer.jl/blob/{commit}{path}#{line}",
+    sitename="CoherentNoiseViewer.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://mfiano.github.io/CoherentNoisePlotting.jl",
+        canonical="https://mfiano.github.io/CoherentNoiseViewer.jl",
         edit_link="main",
         assets=String[],
     ),
@@ -20,6 +20,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/mfiano/CoherentNoisePlotting.jl",
+    repo="github.com/mfiano/CoherentNoiseViewer.jl",
     devbranch="main",
 )
